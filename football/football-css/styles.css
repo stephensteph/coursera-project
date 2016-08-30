@@ -91,7 +91,7 @@ h1 {
 /*	float: left; */
 	padding: 15px;
 }
-#cr7-body {
+#news-body {
 	background-color: white;
 	color: black;
 }
@@ -99,8 +99,8 @@ p {
 	font-family: serif;
 }
 #leo-body {
-	background: lightgreen;
-	color: green;
+	background: black;
+	color: white;
 }
 #latest-game {
 	margin: 50px;
