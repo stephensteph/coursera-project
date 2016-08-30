@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: lightgreen;
 	color: white;
 }
 #header-nav {
@@ -7,14 +7,35 @@ body {
 	border-radius: 0;
 	border:0px;
 }
+/*
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: lightgreen;
 
+li {
+	float: left;
+}
+li a {
+	display:  block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover, a:active {
+	background: green;
+}
+
+*/
 h1 {
 	color: white;
 } 
 .navbar-brand {
 	margin-bottom: 30px;
 } 
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand a:hover, .navbar-brand a:active {
 	text-decoration: none;
 }
 #nav-list a {
@@ -51,10 +72,20 @@ h1 {
 		padding-top: 10px;
 		font-size: 1.6em;
 	}
+	.col-xs-3 {
+		width: 75%;
+	}
+	img {
+		width: 300px;
+	}
+
+
 }
+
 .story span {
 	font-weight: bold;
 	text-transform: uppercase;
+	color: red;
 }
 .img {
 /*	float: left; */
@@ -62,9 +93,19 @@ h1 {
 }
 #cr7-body {
 	background-color: white;
-	color: green;
+	color: black;
+}
+p {
+	font-family: serif;
 }
 #leo-body {
 	background: lightgreen;
 	color: green;
+}
+#latest-game {
+	margin: 50px;
+	background: green;
+}
+.news {
+	font-size: 1.2em;
 }
