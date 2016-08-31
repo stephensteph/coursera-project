@@ -56,7 +56,10 @@ h1 {
 
 
 @media (min-width: 1200px) {
-
+	#rich-clubs {
+	background-color: black;
+	margin-top: 50px;
+}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -79,7 +82,15 @@ h1 {
 		width: 300px;
 	}
 
+	#latest-game {
+	margin: ;
+	background: green;
+	}
 
+	#rich-clubs {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
 }
 
 .story span {
@@ -103,9 +114,21 @@ p {
 	color: white;
 }
 #latest-game {
-	margin: 50px;
+	margin: 50px 50px 10px;
 	background: green;
 }
 .news {
 	font-size: 1.2em;
+}
+#rich-clubs {
+	background-color: black;
+}
+#news1-body {
+	color: black;
+}
+li {
+	padding: 5px;
+}
+#news1-img {
+	padding: 15px;
 }
