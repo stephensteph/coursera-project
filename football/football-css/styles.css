@@ -2,33 +2,13 @@ body {
 	background-color: lightgreen;
 	color: white;
 }
+
 #header-nav {
 	background-color: #008080;
 	border-radius: 0;
 	border:0px;
 }
-/*
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background: lightgreen;
 
-li {
-	float: left;
-}
-li a {
-	display:  block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-li a:hover, a:active {
-	background: green;
-}
-
-*/
 h1 {
 	color: white;
 } 
@@ -55,43 +35,6 @@ h1 {
 }
 
 
-@media (min-width: 1200px) {
-	#rich-clubs {
-	background-color: black;
-	margin-top: 50px;
-}
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-@media (max-width: 767px) {
-	.navbar-brand {
-		padding-top: 10px;
-	}
-	.navbar-brand h1 {
-		padding-top: 10px;
-		font-size: 1.6em;
-	}
-	.col-xs-3 {
-		width: 75%;
-	}
-	img {
-		width: 300px;
-	}
-
-	#latest-game {
-	margin: ;
-	background: green;
-	}
-
-	#rich-clubs {
-		margin-left: 50px;
-		margin-right: 50px;
-	}
-}
 
 .story span {
 	font-weight: bold;
@@ -114,7 +57,7 @@ p {
 	color: white;
 }
 #latest-game {
-	margin: 50px 50px 10px;
+	margin:;
 	background: green;
 }
 .news {
@@ -124,11 +67,127 @@ p {
 	background-color: black;
 }
 #news1-body {
+	background: grey;
 	color: black;
 }
 li {
 	padding: 5px;
+	font-size: 16px;
 }
 #news1-img {
 	padding: 15px;
+}
+.news1-text {
+	font-size: 20px
+}
+.red {
+	color: red;
+}
+.blue {
+	color: blue;
+}
+.lightblue {
+	color: lightblue;
+
+}
+.white {
+	color: white;
+}
+#main-content {
+	background: grey;
+}
+
+
+@media (min-width: 1200px) {
+
+	#latest-game {
+		margin-top: 20px;
+		width: 33%;
+	}
+
+	#rich-clubs {
+	background-color: black;
+	width: 33%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	#latest-game {
+		margin-top: 20px;
+		width: 33%;
+	}
+
+	#rich-clubs {
+	background-color: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 33%;
+}
+	h3 {
+		font-size: 1.5em;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#latest-game {
+		margin-top: 20px;
+		width: 33%;
+	}
+
+	#rich-clubs {
+	background-color: black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 33%;
+}
+	h3 {
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 767px) {
+	
+	body {
+		background: lavender;
+		margin: 10px;
+	}
+	#main-content {
+		background: white;
+	}
+	.navbar-brand {
+		padding-top: 10px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 1.6em;
+	}
+	.col-xs-3 {
+		width: auto;
+	}
+	img {
+		width: 300px;
+	}
+	#latest-game {
+		background: aliceblue;
+		color: black;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	#rich-clubs {
+		background: aliceblue;
+		color: black;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	#main-content {
+		margin: 20px;
+	}
+}
+@media (max-width: 321px) {
+	
 }
