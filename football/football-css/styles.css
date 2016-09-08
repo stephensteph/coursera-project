@@ -48,6 +48,10 @@ h1 {
 /*	float: left; */
 	padding: 15px;
 }
+#players-body {
+	color: black;
+	font-size: 17px;
+}
 #transfer-body {
 	color: black;
 }
@@ -126,6 +130,16 @@ h4,h5 {
 }
 a:hover, a:active {
 	text-decoration: none;
+}
+.griezmann {
+	float: left;
+	margin-right: 1200px;
+}
+.top2 {
+	margin-top: 30px;
+}
+#transfer-content {
+	background: white;
 }
 
 
