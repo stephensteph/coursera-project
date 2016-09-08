@@ -34,6 +34,7 @@ h1 {
 	clear: both;
 }
 
+
 #main-content {
 	background: #2F4F4F;
 }
@@ -47,6 +48,9 @@ h1 {
 /*	float: left; */
 	padding: 15px;
 }
+#transfer-body {
+	color: black;
+}
 #news-body {
 	background-color: white;
 	color: black;
@@ -54,9 +58,7 @@ h1 {
 p {
 	font-family: serif;
 }
-#leo-body {
-	background: white;
-	color: white;
+
 }
 #latest-game {
 	background: #2F4F4F;
@@ -99,7 +101,32 @@ h3 {
 	text-transform: uppercase;
 	padding: 10px;
 }
+.img-left {
+	float: left;
+	padding: 10px;
+}
 
+h4,h5 {
+	color: green;
+	font-weight: bold;
+}
+.div-length {
+	width: 700px;
+}
+.image {
+	padding: 10px;
+}
+.top {
+	margin-top: 30px;
+}
+.story-sm {
+	background: white;
+	font-family: fantasy;
+	height:100px;
+}
+a:hover, a:active {
+	text-decoration: none;
+}
 
 
 @media (min-width: 1200px) {
@@ -112,7 +139,21 @@ h3 {
 	#rich-clubs {
 	width: 33%;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom:	
+	}
+
+.yaya-div h3 {
+	width: 600px;
+	position: absolute;
+	top: 330px;
+	left: 30px;
+	background: black;
+	color: white;
+}
+
+.p-length {
+	width: 1000px;
+	font-size: 20px;
 }
 
 }
@@ -132,6 +173,24 @@ h3 {
 	h3 {
 		font-size: 1.5em;
 	}
+
+	.yaya-div h3 {
+	width: 600px;
+	position: absolute;
+	top: 330px;
+	left: 30px;
+	background: black;
+	color: white;
+}
+.p-length {
+	width: 800px;
+	font-size: 20px;
+
+}
+#toure {
+	width: 800px;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -149,6 +208,23 @@ h3 {
 	h3 {
 		font-size: 1.5em;
 	}
+	.yaya-div h3 {
+	width: 600px;
+	position: absolute;
+	top: 330px;
+	left: 30px;
+	background: black;
+	color: white;
+}
+.p-length {
+	width: 600px;
+	font-size: 20px;
+
+}
+#toure {
+	width: 700px;
+}
+
 }
 
 @media (max-width: 767px) {
@@ -197,6 +273,12 @@ h3 {
 	}
 	#lampard {
 		height: 300px;
+	}
+	.yaya-div {
+		background: white;
+	}
+	.yaya-div h3 {
+		font-family: fantasy;
 	}
 }
 @media (max-width: 321px) {
