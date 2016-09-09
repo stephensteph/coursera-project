@@ -126,7 +126,10 @@ h4,h5 {
 .story-sm {
 	background: white;
 	font-family: fantasy;
-	height:100px;
+}
+.story2-sm {
+	background: white;
+	font-family: fantasy;
 }
 a:hover, a:active {
 	text-decoration: none;
@@ -139,7 +142,6 @@ a:hover, a:active {
 	margin-top: 30px;
 }
 #transfer-content {
-	background: white;
 }
 
 
