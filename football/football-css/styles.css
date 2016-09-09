@@ -287,8 +287,7 @@ a:hover, a:active {
 		color: black;
 		margin: auto;
 	}
-	#lampard {
-		height: 300px;
+	#lampard {27	height: 300px;
 	}
 	.yaya-div {
 		background: white;
@@ -298,5 +297,7 @@ a:hover, a:active {
 	}
 }
 @media (max-width: 321px) {
-	
+	.image {
+		width: 270px;
+	}
 }
