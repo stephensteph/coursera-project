@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale = 1">
+	<title>Lamp</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand"><img src="images/Amp.jpg" height="100"></a>
+				<div class="title-bar-right">
+					<div id="donate"><a href="#">Donate</a></div>
+					<span class="toggle" onclick="openNav()">&#9776;</span>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div id="mySideNav" class="side-nav">
+		<a class="closebtn" href="#" onclick="closeNav()">X</a>
+	 	<a href="#">About us</a>
+		<a href="#">School</a>
+		<a href="#">Pediatrics</a>
+		<a href="#">Autism services</a>
+		<a href="#">Ways to support</a>
+		<a href="#">Talent & culture</a>
+		<a href="#">Success stories</a>
+	</div>
+
+	<div class="w3-content w3-display-container">
+		<img class="mySlides fade" src="images/blakk1.jpg" style="width: 100%;">
+		<img class="mySlides fade" src="images/blakk2.jpg" style="width: 100%;">
+		<img class="mySlides fade" src="images/blakk3.jpg" style="width: 100%;">
+
+		<a class="w3-btn-floating w3-display-left" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="w3-btn-floating w3-display-right" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<footer>
+		<div class="address">
+			<h5 class="black">LAMP</h5>
+			<div>
+				<span class="black glyphicon glyphicon-map-marker"></span>
+				<h5 class="gly-map">1, LOREM IPSUM STREET</h5>
+			</div>
+			<span class="black call glyphicon glyphicon-earphone"></span>
+			<h5 class="gly-map">PHONE: 00000000 | TOLL FREE: 00000000</h5>
+			<p class="black">PRIVACY POLICY <span class="slash">|</span> TERMS OF SERVICE </p>
+		</div>
+		<div class="network">
+			<h5>STAY CONNECTED |</h5>
+			<a href="#">
+				<span class="fa fa-envelope-o" style="font-size:24px;"></span>
+			</a>
+			<a href="#">
+				<span class="fa fa-facebook-official" style="font-size:24px;"></span>
+			</a>
+			<a href="#">
+				<span class="fa fa-twitter-square" style="font-size:24px"></span>
+			</a>
+			<a href="#">
+				<span class="fa fa-linkedin-square" style="font-size:24px"></span>
+			</a>
+		</div>
+	</footer>
+
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+.navbar-default {
+	background-color: dimgrey;
+	border-radius: unset;
+	border: none;
+}
+.navbar-brand {
+	height: 100px;
+	padding-top: 0;
+}
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-brand img {
+	border: unset;
+}
+.title-bar-right {
+	float: right;
+	text-align: right;
+	margin: 10px;
+}
+.navbar-header {
+	float: none;
+}
+#donate a {
+	float: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	border: 2px solid white;
+	cursor: pointer;
+	padding: 5px;
+	display: inline-block;
+}
+#donate {
+	display: inline-block;
+	margin-top: 11px;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: unset;
+}
+#donate a:hover {
+	color: grey; 
+}
+.side-nav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	background-color: #b0c4de;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+.side-nav a {
+	text-transform: uppercase;
+	padding: 8px 8px 8px 32px;
+	font-size: 23px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+}
+.side-nav a:hover {
+	background-color: black;
+}
+.side-nav .closebtn {
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	margin-left: 50px;
+	font-size: 30px;
+}
+.side-nav a.closebtn:hover {
+	background-color: unset;
+}
+.toggle {
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-right: 10px;
+	position: relative;
+	top: 2px;
+}
+
+/* Fading animation */ 
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+	opacity: 1;
+}
+
+@keyframes fade {
+	from {opacity: 0.4}
+	to {opacity: 1}
+}
+
+img.mySlides {
+	height: 440px;
+	object-fit: cover;
+}
+.w3-btn-floating {
+	z-index: 1;
+}
+.w3-content {
+	width: 100%;
+	max-width: none;
+}
+footer {
+	background-color: dimgrey;
+	height: 122px;
+	border-top: 1px solid blue;
+	margin-top: 5px;
+	color: grey;
+	position: relative;
+}
+.address h5 {
+	font-size: 17px;
+	font-weight: bold;
+}
+.address {
+	margin-left: 50px;
+	margin-top: 15px;
+	color: white;
+}
+.black {
+	color: black;
+}
+.call {
+	margin-top: 5px;
+}
+h5.gly-map {
+	display: inline;
+	font-weight: 500;
+	padding-left: 4px;
+}
+p.black {
+	font-size: 10px;
+	font-weight: bold;
+	padding-top: 5px;
+}
+.slash {
+	color: white;
+}
+.network {
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 15px;
+	margin-right: 50px;
+	color: black;
+}
+.network h5 {
+	font-weight: bold;
+	display: inline;
+}
+
+ @media (max-width: 1200px) {
+ }
+
+
+ @media (min-width: 1200px) {
+ }
+
+ @media (min-width: 992px) and (max-width: 1199px) {
+
+ }
+
+ @media (min-width: 768px) and (max-width: 991px) {
+
+ }
+
+ @media (max-width: 767px) {
+ }
+
+ @media (max-width: 500px) {
+ 	.side-nav a {
+ 		font-size: 18px;
+ 	}
+ }
