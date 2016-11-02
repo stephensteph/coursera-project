@@ -160,11 +160,11 @@ button.txt-btn {
 #widgets {
 	background-color: #f2f2f2;
 	color: black;
-	height: 1000px;
+	height: 1300px;
 }
 .widg-announce {
 	padding: 20px;
-	margin: 0 30px;
+	margin-right: 30px;
 	background-color: white;
 	border-top: 13px solid #aaa;
 }
@@ -206,7 +206,6 @@ hr {
 .widg-upcoming {
 	padding: 20px;
 	background-color: white;
-	margin: 0 30px;
 	border-top: 13px solid #aaa;
 }
 .widg-upcoming .evnt-date {
@@ -243,8 +242,11 @@ span.evnt-month {
 	margin: 0;
 }
 .widgy {
-	margin: 0 auto;
+	padding-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 	height: inherit;
+	position: relative;
 }
 button.extra {
 	margin-right: 10px;
@@ -255,50 +257,179 @@ header.header {
 }
 .sermons-widget {
 	background-color: #f2f2f2;
-	color: black;
-	height: 100%;
+	color: #444;
+	height: 1200px;
+	position: relative;
 }
 .widg-announce h1 {
 	font-size: 45px;
 	font-weight: 500;
-	color: dimgrey;
 	padding-left: 50px;
 	padding-top: 30px;
 }
-.widg-announce .primary-tabs {
-	margin: 50px;
-	border: 2px solid #b28766;
-	list-style-type: none;
-	border-radius: 5px;
-	float: left;
-}
-.primary-tabs li {
-	float: left;
-}
-.primary-tabs .tab {
-	width: 200px;
-}
-.tab span {
-	text-align: center;
-	text-transform: none;
-	width: 100%;
-}
-.tab .tab-current {
-	padding-right: 18px;
-}
-.primary-tabs span.tab-current {
-	color: white;
-	background-color: #b28766;
-}
-
-.primary-tabs li span {
-	font-size: 16px;
-	cursor: pointer;
-	display: inline-block;
-}
-.primary-tabs span.tab-all-sermons {
-	color: #b28766;
+button.sermons-btn {
+	margin: unset;
 	background-color: white;
+	border: 2px solid #b28766;
+	color: #b28766;
+	height: 50px;
+	margin: 50px;
+	width: 300px;
+}
+button.sermons-btn:focus, button.sermons-btn:hover {
+	background-color: #b28766;
+	color: white;
+	border: none;
+}
+.sermon-widg {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 90px;
+	margin-right: 90px;
+	position: relative;
+}
+.music-sub {
+	width: 320px;
+	height: 45px;
+	position: absolute;
+	top: 65px;
+	right: 50px;
+	border-radius: 5px;
+	border: 1px solid #b3b3b3;
+	background-color: white;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.music-sub:focus, .music-sub:hover {
+	background-color: #b3b3b3;
+	color: white;
+}
+span.Glyphicon-music {
+	padding-right: 3px;
+}
+.filter-by {
+	position: absolute;
+	top: 183px;
+	right: 50px;
+	color: #d1d1d1;
+	font-weight: 600;
+}
+.filter-by p {
+	font-size: 17px;
+	display: inline;
+	padding: 17px;
+}
+.filter {
+	background-color: #d1d1d1;
+	color: white;
+	cursor: pointer;
+}
+.filter:focus, .filter:hover {
+	background-color: #778899;
+}
+.series {
+	background-color: #b28766;
+	height: 400px;
+	position: relative;
+}
+.series img {
+	width: 500px;
+	height: 300px;
+	margin: 50px;
+}
+.p-series {
+	position: absolute;
+	top: 57px;
+	right: 10%;
+	letter-spacing: .5px;
+}
+.text-series {
+	padding: 50px;
+	padding-bottom: 25px;
+	position: relative;
+}
+.text-content span {
+	color: #b28766;
+}
+.text-content p {
+	font-size: 16px;
+	font-weight: 600;
+}
+.l-d-btn {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+.l-d-btn p {
+	display: inline;
+	padding: 15px;
+	font-size: 15px;
+}
+.filter2 {
+	border: 1px solid #dcdcdc;
+	cursor: pointer;
+}
+.filter2:focus, .filter2:hover {
+	background-color: #dcdcdc;
+}
+.text-series .caret {
+	margin-left: 5px;
+}
+.footer-ind {
+	position: absolute;
+	top: 75%;
+}
+.footer-ind p {
+	font-size: 15px;
+}
+footer hr {
+	width: 945px;
+	padding-bottom: 50px;
+	border-top: 2px solid grey;
+}
+.church-name {
+	padding-bottom: 50px;
+}
+ footer .glyphicon {
+ 	padding-left: 4px;
+ 	padding-right: 5px;
+ 	position: relative;
+ 	top: 3px;
+ }
+.im-new {
+	position: absolute;
+	top: 92px;
+	left: 390px;
+}
+.serm {
+	position: absolute;
+	top: 92px;
+	left: 580px;
+}
+.abt-us {
+	position: absolute;
+	top: 92px;
+	right: 80px;
+}
+.gvng {
+	position: absolute;
+	top: 92px;
+	right: 0;
+}
+.chc-top {
+	position: relative;
+	top: 100px;
+	left: 100px;
+	font-size: 30px;
+}
+.chc-top a, .chc-top a:focus, .chc-top a:hover {
+	text-decoration: none;
+	color: white;
+}
+.chc-top a:focus, .chc-top a:hover {
+	color: #b28766;
 }
 
 @media (min-width: 1200px) {
@@ -310,6 +441,12 @@ header.header {
 		margin-left: 70px;
 		margin-right: 70px;
 	}
+	.widgy {
+		margin-left: 200px;
+	}
+	.footer-ind {
+		top: 60%;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	.txt-msg {
@@ -317,6 +454,9 @@ header.header {
 	}
 	.txt-msg h4 {
 		font-size: 22px;
+	}
+	.footer-ind {
+		top: 55%;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -328,6 +468,9 @@ header.header {
 	}
 	.widg-upcoming button.txt-btn {
 		margin-top: 125px;
+	}
+	#widgets {
+		height: 1700px;
 	}
 }
 @media (max-width: 767px) {
@@ -378,5 +521,8 @@ header.header {
 		position: static;
 		right: auto;
 		left: auto;
+	}
+	#widgets {
+		height: 1900px;
 	}
 }
